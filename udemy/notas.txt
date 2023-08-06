@@ -44,7 +44,7 @@
     tambien se le puede añadir un label
 <select> = crea un selector de opciones. a este hay que asignarle un name
 <option> = crea las opciones dentro del selector. a estas hay q asignarle un value
-<a> = aun no se que significa
+<a> = esta etiqueta permite crear un enlace a otra pagina web
     atributos:
     href = enlace a otra pagina
     title = titulo
@@ -57,3 +57,12 @@ javascript
 alert('') = sirve para poner mensajes emergentes
 document.write = sirve para escribir dentro de la pagina
 console.log muestra cosas en la consola
+var = sirve para definir variables globales
+'use strict' = es como la norminette de javascript
+let = define variables con menos alcance, es decir, puedes modificar la variable solo en un bloque de codigo, declaracion o expresion
+const = es una variable estatica ya que su contenido no puede cambiar
+casteos:
+ Number() = convierte un str en un int 
+ ParseInt() = convierte un int en un str
+ ParseFloat() = convierte un float en un str
+typeof(nombre_variable) = indica el tipo de variable
