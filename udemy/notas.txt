@@ -1,0 +1,59 @@
+<br> = salto de linea
+<hr> = salto de linea que pone una linea
+<p> = parrafo
+<strong> = letra en negrita
+<em> o <i> = letra en cursiva
+<span> = aun no se lo que es pero se usa para css (etiqueta para hacer maquetación)
+<blockquote> = cita (tabulado especial)
+<ol> = es para crear una lista ordenada
+<ul> = es para crear una lista sin orden
+<li> = es para cada una de las cosas de la lista
+<img> = es la etiqueta para poner imagenes. Esta tiene varios atributos importantes.
+    atributos :
+    alt = se indica un texto para cuando la imagen no cargue
+    tittle = pop-up para cuando pasas el cursor por encima
+    src = sirve para indicar la ruta de la imagen
+    width = anchura de la imagen
+    height = altura de la imagen
+<table> = es la etiqueta principal de una tabla
+    atributos:
+    border = le pone borde a la tabla
+<tr> = crea una fila en la tabla
+<td> = crea una columna en la tabla
+    atributos:
+    colspan = expande las columnas
+<th> = indica cual es la fila principal
+<form> = se usa para crear formularios
+<input> = etiqueta para introducir un input
+    atributos:
+    type = se usa para saber que tipo de input vas a introducir. Hay varios tipos
+        text = texto
+        radio = es un selector con punto (radio button) que utiliza los siguientes atributos:
+            value = la descripcion del contenido
+            name = el nombre del radio
+        submit = crea un boton para enviar las cosas
+
+    name = se usa para ponerle un nombre a tu input
+    placeholder = texto que desaparece dentro del input
+<label> = es una etiqueta para nombrar un input
+    atributos:
+    for = a que input va dirigida
+<textarea> = como su propio nombre indica, es un area donde podemos escribir
+    atributos:
+    name
+    tambien se le puede añadir un label
+<select> = crea un selector de opciones. a este hay que asignarle un name
+<option> = crea las opciones dentro del selector. a estas hay q asignarle un value
+<a> = aun no se que significa
+    atributos:
+    href = enlace a otra pagina
+    title = titulo
+    target = donde quieres que abra el link
+        _blank = nueva pagina
+
+
+
+javascript
+alert('') = sirve para poner mensajes emergentes
+document.write = sirve para escribir dentro de la pagina
+console.log muestra cosas en la consola
